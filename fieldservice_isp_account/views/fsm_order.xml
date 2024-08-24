@@ -16,7 +16,7 @@
                         class="oe_highlight"
                         type="object"
                         groups="fieldservice.group_fsm_dispatcher"
-                        attrs="{'invisible': [('account_stage', '!=', 'review')]}"
+                        modifiers="{'invisible': [('account_stage', '!=', 'review')]}"
                     />
                     <button
                         id="account_create_invoice"
@@ -25,7 +25,7 @@
                         class="oe_highlight"
                         type="object"
                         groups="account.group_account_invoice"
-                        attrs="{'invisible': [('account_stage', '!=', 'confirmed')]}"
+                        modifiers="{'invisible': [('account_stage', '!=', 'confirmed')]}"
                     />
                     <button
                         id="account_no_invoice"
@@ -33,7 +33,7 @@
                         string="No Invoice"
                         type="object"
                         groups="account.group_account_invoice"
-                        attrs="{'invisible': [('account_stage', '!=', 'confirmed')]}"
+                        modifiers="{'invisible': [('account_stage', '!=', 'confirmed')]}"
                     />
                     <field name="account_stage" widget="statusbar" />
                 </header>
