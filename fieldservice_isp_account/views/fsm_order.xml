@@ -2,10 +2,7 @@
     <record id="fsm_order_form_isp_account" model="ir.ui.view">
         <field name="name">fsm.order.form.isp.account</field>
         <field name="model">fsm.order</field>
-        <field
-            name="inherit_id"
-            ref="fieldservice_account_analytic.fsm_order_form_analytic"
-        />
+        <field name="inherit_id" ref="fieldservice_account_analytic.fsm_order_form_analytic" />
         <field name="arch" type="xml">
             <group name="bill_to" position="before">
                 <header>
