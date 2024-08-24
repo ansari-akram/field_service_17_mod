@@ -10,7 +10,7 @@
     "license": "AGPL-3",
     "author": "Open Source Integrators, Odoo Community Association (OCA)",
     "website": "https://github.com/OCA/field-service",
-    "depends": ["fieldservice", "web_timeline"],
+    "depends": ["fieldservice"],
     "data": ["views/fsm_order.xml", "views/fsm_team.xml"],
     "development_status": "Beta",
     "maintainers": ["wolfhall", "max3903"],
